@@ -1,2 +1,2 @@
-# DATA310
-Description of what ML is, followed by informal exercises
+# Emma Schmidt - DATA310
+Informal Class Exercises, Spring 2021
