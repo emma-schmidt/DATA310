@@ -2,7 +2,7 @@
 Welcome to Emma's Applied Machine Learning github page!
 
 ## Emma Schmidt - Introduction
-[About Me!](https://emma-schmidt.github.io/DATA310/emma_introduction.html)
+[About Me](https://emma-schmidt.github.io/DATA310/emma_introduction.html)
 
 ## Informal Exercises
 
