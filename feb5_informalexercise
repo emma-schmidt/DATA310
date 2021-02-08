@@ -1,0 +1,6 @@
+# 2/5 Informal Exercise
+
+### 1. According to Maroney, what is the difference between traditional programming and machine learning?
+
+In traditional programming, the user inputs data and the rules by which to classify that data, and the machine returns answers. In machine learning, the user inputs data and the answers to the data (labels), and the machine figures out what the rules of classification are.
+
