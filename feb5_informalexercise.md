@@ -19,6 +19,6 @@ To predict housing prices, I used data from these six house postings to train a 
 | Mathews      | $2.830K         | $3.475K      |
 | Mobjack      | $3.140K         | $2.89K       |
 | Moon         | $1.568K         | $2.5K        |
-| Mewptcomfort | $2.953K         | $2.29K       |
+| Newptcomfort | $2.953K         | $2.29K       |
 
 Based on this information, Mathews and Moon are both bad deals, while Hudgins and Newptcomfort are both good deals. Mobjack and Church are marginally good deals. However, this model does not take into consideration factors other than number of bedrooms, number of bathrooms, and square footage, and is therefore likely a poor indicator of actual house value.
