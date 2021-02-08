@@ -1,2 +1,2 @@
 # Emma Schmidt - DATA310
-Informal Class Exercises, Spring 2021
+Welcome to Emma's Applied Machine Learning github page!
