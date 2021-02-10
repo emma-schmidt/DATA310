@@ -11,7 +11,7 @@ By splitting the data into a training set and a testing set, we can first train 
 
 ### 3. In the past example we used the optimizer and loss function, while in this one we are using the function adam in the optimizer argument and sparse_categorical- crossentropy for the loss argument. How do the optimizer and loss functions operate to produce model parameters (estimates) within the model.compile() function?
 
-When training a model, the loss function calculates how good (or bad) the model's "guess" was. Then, the optimizer adjusts the parameters based on this. The goal is to have as small of a loss function as possible, and the more epochs you run, the more you will minimize the loss function because the model has many attempts to fit the model as closely as possible to the data. I imagine, however, that there is such a thing as running too many epochs - this will likely lead to an overfit model. 
+When training a model, the loss function calculates how good (or bad) the model's "guess" was. Then, the optimizer adjusts the model parameters based on this. The goal is to have as small of a loss function as possible, and the more epochs you run, the more you will minimize the loss function because the model has many attempts to fit the model as closely as possible to the data. I imagine, however, that there is such a thing as running too many epochs - this will likely lead to an overfit model. 
 
 ### 4. Using the mnist drawings dataset (the dataset with the hand written numbers with corresponding labels) answer the following questions:
 ##### What is the shape of the images training set (how many and the dimension of each)?
