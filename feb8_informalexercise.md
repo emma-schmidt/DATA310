@@ -15,8 +15,17 @@ When training a model, the loss function calculates how good (or bad) the model'
 
 ### 4. Using the mnist drawings dataset (the dataset with the hand written numbers with corresponding labels) answer the following questions:
 ##### What is the shape of the images training set (how many and the dimension of each)?
+
+The training set contains 60,000 images, each of which are 28x28.
+
 ##### What is the length of the labels training set?
+
+The labels training set contains 60,000 labels. 
+
 ##### What is the shape of the images test set?
+
+The testing set contains 10,000 images, each of which are 28x28. 
+
 ##### Estimate a probability model and apply it to the test set in order to produce the array of probabilities that a randomly selected image is each of the possible numeric outcomes (look towards the end of the basic image classification exercises for how to do this — you can apply the same method applied to the Fashion MNIST dataset but now apply it to the hand written letters MNIST dataset).
 
 ### 5. Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
