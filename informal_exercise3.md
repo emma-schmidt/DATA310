@@ -1,1 +1,2 @@
-#This is informal exercise 3
+#Informal Exercise 3
+
