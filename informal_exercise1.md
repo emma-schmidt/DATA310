@@ -1,4 +1,4 @@
-# 2/5 Informal Exercise
+# Informal Exercise 1
 
 ### 1. According to Maroney, what is the difference between traditional programming and machine learning?
 
