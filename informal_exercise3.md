@@ -1,13 +1,15 @@
 # Informal Exercise 3
 
-#### Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size.
+#### Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size. What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? 
 
+##### Original Image:
+![original staircase](https://user-images.githubusercontent.com/78189165/108776436-65b25c80-7530-11eb-9775-f5416816d885.png)
 
-[Original Image](https://github.com/emma-schmidt/DATA310/blob/main/staircase_filter1.png)
+##### Filter #1:
 
-![image](https://user-images.githubusercontent.com/78189165/108776436-65b25c80-7530-11eb-9775-f5416816d885.png)
+##### Filter #2:
 
-#### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? 
+##### Filter #3:
 
 #### Why is the application of a convolving filter to an image useful for computer vision? 
 
