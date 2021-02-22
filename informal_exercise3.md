@@ -5,9 +5,9 @@
 ##### Original Image:
 ![original staircase](https://user-images.githubusercontent.com/78189165/108776436-65b25c80-7530-11eb-9775-f5416816d885.png)
 
-##### Filter #1: `filter1 = [ [1, 1, 1], [0, 0, 0], [-1, -1, -1]]`
+##### Filter #1: `filter1 = [ [1, 0, 1], [0, 0, 0], [-1, 0, -1]]`
 
-![Filter 1](https://user-images.githubusercontent.com/78189165/108777317-9e9f0100-7531-11eb-8709-6d96b9b51392.png)
+![image](https://user-images.githubusercontent.com/78189165/108777564-fb9ab700-7531-11eb-95c2-0084eacf6a0c.png)
 
 ##### Filter #2: `filter2 = [ [0, 0, -1], [0, 0, 2], [0, 0, -1]]`
 
