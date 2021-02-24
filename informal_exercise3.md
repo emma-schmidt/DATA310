@@ -39,10 +39,10 @@ The filter appears to be maximizing values, which gives the appearance of enhanc
 
 The result of the convolution is a 7x7 matrix: 
 
-[[0, 0, 0, 3, 0, 0, 0],
+`[[0, 0, 0, 3, 0, 0, 0],
  [0, 0, 0, 3, 0, 0, 0],
  [1, 1, 1, 3, 1, 1, 1],
  [1, 1, 1, 3, 1, 1, 1],
  [1, 1, 1, 3, 1, 1, 1],
  [0, 0, 0, 3, 0, 0, 0],
- [0, 0, 0, 3, 0, 0, 0]]
+ [0, 0, 0, 3, 0, 0, 0]]`
