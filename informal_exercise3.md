@@ -27,9 +27,7 @@ Filter 3 is the same as filter 2, but with the order of each line reversed. I wa
 
 Applying a convolving filter enhances some features of an image while dulling/darkening others. This can make it easier for the computer to "see" identifying features of an image, which can help it to classify the image. 
 
-#### Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
-
-#### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
+#### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? 
 
 ![image](https://user-images.githubusercontent.com/78189165/109032263-7b8c6280-7693-11eb-807e-ccdd12ff8cc3.png)
 
