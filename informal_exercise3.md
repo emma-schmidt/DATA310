@@ -31,4 +31,18 @@ Applying a convolving filter enhances some features of an image while dulling/da
 
 #### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
 
+![image](https://user-images.githubusercontent.com/78189165/109032263-7b8c6280-7693-11eb-807e-ccdd12ff8cc3.png)
+
+The filter appears to be maximizing values, which gives the appearance of enhancing the contrast of the photo. The resulting image decreased in size: instead of being 512x512 pixels, it is now 256x256 pixels. 
+
 #### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix.
+
+The result of the convolution is a 7x7 matrix: 
+
+[[0, 0, 0, 3, 0, 0, 0],
+ [0, 0, 0, 3, 0, 0, 0],
+ [1, 1, 1, 3, 1, 1, 1],
+ [1, 1, 1, 3, 1, 1, 1],
+ [1, 1, 1, 3, 1, 1, 1],
+ [0, 0, 0, 3, 0, 0, 0],
+ [0, 0, 0, 3, 0, 0, 0]]
