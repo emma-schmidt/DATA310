@@ -57,3 +57,11 @@
 |2|1|-4|-4|-4|-3|-1|
 |1|0|-2|-3|2|3|-1|
 
+#### What is the purpose of using a 3x3 filter to convolve across a 2D image matrix?
+The purpose of using a 3x3 filter to convolve across a 2D image matrix is to extract different features from the image (for example, by emphasizing horizontal lines).
+
+#### Why would we include more than one filter? 
+Different filters extract idfferent features from an image, so we would use multiple filters when we wish to extract multiple features from an image. 
+
+#### How many filters did you assign as part of your architecture when training a model to learn images of numbers from the mnist dataset?
+One. 
