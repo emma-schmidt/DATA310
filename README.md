@@ -12,7 +12,7 @@ Welcome to Emma's Applied Machine Learning github page!
 
 [Informal Exercise 3](https://emma-schmidt.github.io/DATA310/informal_exercise3.html)
 
-[Informal Exercise 4] (https://emma-schmidt.github.io/DATA310/informal_exercise4.html)
+[Informal Exercise 4](https://emma-schmidt.github.io/DATA310/informal_exercise4.html)
 
 ## Mini Projects
 
