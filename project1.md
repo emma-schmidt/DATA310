@@ -8,9 +8,22 @@
 - Include at least three plots that support your project report
 - Stretch goal: add a spatial variable to your feature set and compare with the original model. Did this improve the predictive power of your model? If so, how?
 
+##### Data Overview
+
 City selected: Atlanta
 Original number of observations: 400
 Final number of observations: 350
+
+|   |District|Price|Beds|Baths|Sqft|
+|---|---------|-----|----|----|------|
+|count|350.000000|3.500000e+02|350.000000|350.000000|350.000000|
+|mean|6.540000|7.725935e+05|3.137143|2.862857|2298.097143|
+|std|3.147264|1.513848e+06|1.364109|1.709083|2651.213030|
+|min|1.000000|1.500000e+04|1.000000|1.000000|552.000000|
+|25%|4.000000|2.249250e+05|2.000000|2.000000|1150.000000|
+|50%|7.000000|3.274500e+05|3.000000|3.000000|1889.000000|
+|75%|9.000000|5.986250e+05|4.000000|3.000000|2732.000000|
+|max|12.000000|1.395000e+07|9.000000|18.000000|33000.000000|
 
 
 ![image](https://user-images.githubusercontent.com/78189165/109401451-d97fab00-791c-11eb-9acc-52d5ef3d9386.png)
