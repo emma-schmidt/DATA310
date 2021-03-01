@@ -67,12 +67,14 @@ Different filters extract different features from an image, so we would use mult
 ### MSE Exercise
 
 #### MSE: From your 400+ observations of homes for sale, calculate the MSE for the following.
-- The 10 biggest over-predictions
-- The 10 biggest under-predictions
-- The 10 most accurate results (use absolute value)
+- The 10 biggest over-predictions: **2343429801.622119**
+- The 10 biggest under-predictions: **16028512191.533596**
+- The 10 most accurate results (use absolute value): **882901443.9793992**
 
 #### In which percentile do the 10 most accurate predictions reside? Did your model trend towards over or under predicting home values?
+The ten most accurate predictions reside in the 70th percentile. This indicates that my model trends towards under-predicting home values.
 
 #### Which feature appears to be the most significant predictor in the above cases?
+It seems like square footage might be the most significant predictor in the above cases. Logically, it makes sense that houses with more square footage would have higher listing prices. Two houses could both have three bedrooms and two bathrooms, but if one house is 1,000 sqft and the other is 1,700 sqft, the second one will probably be priced higher due to either larger bedrooms/bathrooms, more rooms that are not counted as bedrooms/bathrooms (e.g. family rooms, offices, etc), or a combination of the two as well as other factors. This logic is mirrored in the ten most accurate predictions - square footage is pretty highly correlated with asking price/predicted price, while number of bedrooms/bathrooms is not quite as accurate a predictor of price. 
 
 #### Stretch goal: calculate the MAE and compare with your MSE results
