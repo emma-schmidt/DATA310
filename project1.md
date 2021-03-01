@@ -16,7 +16,7 @@ Original number of observations: 400
 
 Final number of observations: 350
 
-|   |Price|Beds|Baths|Sqft|
+|   |Asking Price|Beds|Baths|Sqft|
 |---|-----|----|----|------|
 |count|3.500000e+02|350.000000|350.000000|350.000000|
 |mean|7.725935e+05|3.137143|2.862857|2298.097143|
