@@ -19,3 +19,5 @@ Welcome to Emma's Applied Machine Learning github page!
 [Mini Project 1](https://emma-schmidt.github.io/DATA310/mini_project1.html)
 
 ## Formal Projects
+
+[Project 1](https://emma-schmidt.github.io/DATA310/Project1.html)
