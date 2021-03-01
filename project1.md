@@ -30,6 +30,9 @@ Final number of observations: 350
 
 ![image](https://user-images.githubusercontent.com/78189165/109401451-d97fab00-791c-11eb-9acc-52d5ef3d9386.png)
 
+![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
+
+![image](https://user-images.githubusercontent.com/78189165/109556082-5721f300-7aa4-11eb-8ffd-ee08c3accc16.png)
 
 
 
