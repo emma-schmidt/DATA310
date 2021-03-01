@@ -37,6 +37,6 @@ Final number of observations: 350
 
 
 MSE with just beds, baths, and sqft: 2205958780709.3184 
+
 MSE with beds, baths, sqft, and city council district: 1805440807305.1465
 
-![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
