@@ -11,7 +11,9 @@
 ##### Data Overview
 
 City selected: Atlanta
+
 Original number of observations: 400
+
 Final number of observations: 350
 
 |   |District|Price|Beds|Baths|Sqft|
