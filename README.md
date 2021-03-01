@@ -20,4 +20,4 @@ Welcome to Emma's Applied Machine Learning github page!
 
 ## Formal Projects
 
-[Project 1](https://emma-schmidt.github.io/DATA310/Project1.html)
+[Project 1](https://emma-schmidt.github.io/DATA310/project1.html)
