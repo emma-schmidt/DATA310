@@ -33,7 +33,23 @@ After scraping this information, I exported the data in a table and imported it 
 |max|1.395000e+07|9.000000|18.000000|33000.000000|
 
 
+##### Model Description
 
+In addition to including variables on number of bedrooms, number of bathrooms, and square footage, I wanted my model to have a spatial element. To do this, I added data on the district that each house was located in (see Data Description section for more details). In order to include this in my model, I had to create twelve dummy variables for the twelve districts, giving a house a 1 value for the district it is located in and a 0 value for all other districts. The code below shows how I approached this:
+
+`dummies = pd.get_dummies(atl_homes['District'])
+atl_homes['d1']=np.asarray(dummies[1])
+atl_homes['d2']=np.asarray(dummies[2])
+atl_homes['d3']=np.asarray(dummies[3])
+atl_homes['d4']=np.asarray(dummies[4])
+atl_homes['d5']=np.asarray(dummies[5])
+atl_homes['d6']=np.asarray(dummies[6])
+atl_homes['d7']=np.asarray(dummies[7])
+atl_homes['d8']=np.asarray(dummies[8])
+atl_homes['d9']=np.asarray(dummies[9])
+atl_homes['d10']=np.asarray(dummies[10])
+atl_homes['d11']=np.asarray(dummies[11])
+atl_homes['d12']=np.asarray(dummies[12])`
 
 ![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
 
