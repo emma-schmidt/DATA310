@@ -54,6 +54,35 @@ atl_homes['d11']=np.asarray(dummies[11])
 atl_homes['d12']=np.asarray(dummies[12])
 ```
 
+I used a Keras Sequential model, with stochastic gradient descent as the optimizer and mean squared error as the loss function. The code below shows my model:
+
+```
+model = keras.Sequential([keras.layers.Dense(units = 1, input_shape=[15])])
+model.compile(optimizer = 'sgd', loss = 'mean_squared_error')
+
+x1 = np.asarray(atl_homes['Beds'])
+x2 = np.asarray(atl_homes['Baths'])
+x3 = np.asarray(atl_homes['sqft_scale'])
+x4 = np.asarray(atl_homes['d1'])
+x5 = np.asarray(atl_homes['d2'])
+x6 = np.asarray(atl_homes['d3'])
+x7 = np.asarray(atl_homes['d4'])
+x8 = np.asarray(atl_homes['d5'])
+x9 = np.asarray(atl_homes['d6'])
+x10 = np.asarray(atl_homes['d7'])
+x11 = np.asarray(atl_homes['d8'])
+x12 = np.asarray(atl_homes['d9'])
+x13 = np.asarray(atl_homes['d10'])
+x14 = np.asarray(atl_homes['d11'])
+x15 = np.asarray(atl_homes['d12'])
+
+xs = np.stack([x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15], axis=1)
+ys = np.asarray(atl_homes['prices_scale'])
+
+model.fit(xs, ys, epochs=500)
+```
+
+
 ![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
 
 ![image](https://user-images.githubusercontent.com/78189165/109556082-5721f300-7aa4-11eb-8ffd-ee08c3accc16.png)
