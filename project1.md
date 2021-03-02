@@ -8,13 +8,18 @@
 - Include at least three plots that support your project report
 - Stretch goal: add a spatial variable to your feature set and compare with the original model. Did this improve the predictive power of your model? If so, how?
 
-##### Data Overview
+##### Data Description
 
 City selected: Atlanta
 
 Original number of observations: 400
 
 Final number of observations: 350
+
+To obtain my data, I first used the BeautifulSoup library to scrape Zillow home postings from Atlanta, GA. The data I collected contained information on the address of each posting, as well as the number of bedrooms, the number of bathrooms, and the square footage of each house. I also obtained the listing price. 
+After scraping this information, I exported the data in a table and imported it into ArcGIS Pro. I used a geoprocessing tool to geolocate the addresses on a map, and then added a shapefile of the Atlanta City Council districts to the map. Using the spatial join tool, I determined which district each house was in. Unfortunately as you can see from the map below, some of the homes fell outside of these districts. These homes were excluded from the final sample. I then exported the data into a .csv file and re-imported it into PyCharm. Below the map is a table of descriptive statistics summarizing the final 350 observations. 
+
+![image](https://user-images.githubusercontent.com/78189165/109401451-d97fab00-791c-11eb-9acc-52d5ef3d9386.png)
 
 |   |Asking Price|Beds|Baths|Sqft|
 |---|-----|----|----|------|
@@ -28,7 +33,7 @@ Final number of observations: 350
 |max|1.395000e+07|9.000000|18.000000|33000.000000|
 
 
-![image](https://user-images.githubusercontent.com/78189165/109401451-d97fab00-791c-11eb-9acc-52d5ef3d9386.png)
+
 
 ![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
 
