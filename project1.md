@@ -82,10 +82,15 @@ ys = np.asarray(atl_homes['prices_scale'])
 model.fit(xs, ys, epochs=500)
 ```
 
+When training my model, I used 500 epochs. However, I probably could have used less and gotten the same result, as the plot below shows that my loss function did not improve significantly (if at all) as they ran. 
 
 ![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
 
+##### Model Analysis
+
 ![image](https://user-images.githubusercontent.com/78189165/109556082-5721f300-7aa4-11eb-8ffd-ee08c3accc16.png)
+
+As you can see in the graph above, my model does a pretty bad job of predicting the asking prices of homes in Atlanta. There are several factors contributing to this, the most apparent of which is the small sample size. However, even with a significantly larger sample size, I am not confident that the model - with these variables - could ever do a decent job of predicting the asking prices. First of all, there is a lot more that goes into the asking price of a home than just bedrooms, bathrooms, square footage, and general location. 
 
 
 
