@@ -49,7 +49,8 @@ atl_homes['d8']=np.asarray(dummies[8])
 atl_homes['d9']=np.asarray(dummies[9])
 atl_homes['d10']=np.asarray(dummies[10])
 atl_homes['d11']=np.asarray(dummies[11])
-atl_homes['d12']=np.asarray(dummies[12])```
+atl_homes['d12']=np.asarray(dummies[12])
+```
 
 ![image](https://user-images.githubusercontent.com/78189165/109555679-d6fb8d80-7aa3-11eb-8113-7fa5617d980c.png)
 
