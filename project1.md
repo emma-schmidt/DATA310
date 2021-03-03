@@ -83,17 +83,15 @@ When training my model, I used 500 epochs. However, I probably could have used l
 ![image](https://user-images.githubusercontent.com/78189165/109556082-5721f300-7aa4-11eb-8ffd-ee08c3accc16.png)
 
 
-Based on this model, the “best deals” are located in the upper left hand quarter of the graph above, and the “worst deals” are located in the lower right hand corner of the graph above. But, as you can see from the graph, my model does a pretty bad job of predicting the asking prices of homes in Atlanta. There are several factors contributing to this, the most apparent of which is the small sample size. However, even with a significantly larger sample size, I am not confident that the model - with these variables - could ever do a decent job of predicting the asking prices. First of all, there is a lot more that goes into the asking price of a home than just bedrooms, bathrooms, square footage, and general location. Additional variables that could contribute to the accuracy of the model include, but are not limited to:
+Based on this model, the “best deals” are located in the upper left hand quarter of the graph above, and the “worst deals” are located in the lower right hand corner of the graph above. But, as you can see from the graph, my model does a pretty bad job of predicting the asking prices of homes in Atlanta. The MSE of this model (that includes bedrooms, bathrooms, square footage, and city council district) is 1805440807305.1465. This is an improvement over the MSE of the same model but excluding the city council districts, which was 2205958780709.3184. The improvement on the MSE indicates that including data on the city council district makes the model better. Including the city council district improves the model by serving as an imperfect proxy for other spatial variables such as school district or crime rate. 
+
+There are several factors contributing to the inaccuracy of the model, the most apparent of which is the small sample size. However, even with a significantly larger sample size, I am not confident that the model - with these variables - could ever do a decent job of predicting the asking prices. First of all, there is a lot more that goes into the asking price of a home than just bedrooms, bathrooms, square footage, and general location. Additional variables that could contribute to the accuracy of the model include, but are not limited to:
 - Time elapsed since the home was initially put up for sale (since we are trying to estimate asking price, the longer the home is on the market, the lower the asking price may be)
 - School district 
 - Local crime rate
-- Neighborhood
+- Neighborhood-level variables, such as average home value and racial composition
 - Distance to downtown
 - Acreage (size of yard)
 
 
-
-MSE with just beds, baths, and sqft: 2205958780709.3184 
-
-MSE with beds, baths, sqft, and city council district: 1805440807305.1465
 
