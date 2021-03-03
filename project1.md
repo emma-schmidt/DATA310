@@ -82,7 +82,14 @@ When training my model, I used 500 epochs. However, I probably could have used l
 
 ![image](https://user-images.githubusercontent.com/78189165/109556082-5721f300-7aa4-11eb-8ffd-ee08c3accc16.png)
 
-As you can see in the graph above, my model does a pretty bad job of predicting the asking prices of homes in Atlanta. There are several factors contributing to this, the most apparent of which is the small sample size. However, even with a significantly larger sample size, I am not confident that the model - with these variables - could ever do a decent job of predicting the asking prices. First of all, there is a lot more that goes into the asking price of a home than just bedrooms, bathrooms, square footage, and general location. 
+
+Based on this model, the “best deals” are located in the upper left hand quarter of the graph above, and the “worst deals” are located in the lower right hand corner of the graph above. But, as you can see from the graph, my model does a pretty bad job of predicting the asking prices of homes in Atlanta. There are several factors contributing to this, the most apparent of which is the small sample size. However, even with a significantly larger sample size, I am not confident that the model - with these variables - could ever do a decent job of predicting the asking prices. First of all, there is a lot more that goes into the asking price of a home than just bedrooms, bathrooms, square footage, and general location. Additional variables that could contribute to the accuracy of the model include, but are not limited to:
+- Time elapsed since the home was initially put up for sale (since we are trying to estimate asking price, the longer the home is on the market, the lower the asking price may be)
+- School district 
+- Local crime rate
+- Neighborhood
+- Distance to downtown
+- Acreage (size of yard)
 
 
 
