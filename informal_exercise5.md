@@ -5,6 +5,7 @@ Country selected: Kenya
 ### Import the households dataset for your selected country and create a data frame with a variable that describes each of the following: household ID, unit, weights, location, size, gender, age, education, and wealth. Pivot the persons columns within your households data to a long format in order to produce a similarly specified dataset that describes all persons residing within all households.
 
 Code used:
+
 ``` households <- read_dta("KEHR72DT/KEHR72FL.DTA")
 
 
