@@ -140,6 +140,6 @@ global_step             100.000000
 #### Wealth 5:
 
 
-## Best Model??? 
+## So, which model is best? 
 
 
