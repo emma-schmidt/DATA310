@@ -139,6 +139,22 @@ global_step             100.000000
 
 #### Wealth 5:
 
+```
+accuracy                  0.856450
+accuracy_baseline         0.853869
+auc                       0.773969
+auc_precision_recall      0.373188
+average_loss              0.350861
+label/mean                0.146131
+loss                      0.350861
+precision                 0.589189
+prediction/mean           0.152098
+recall                    0.058341
+global_step             100.000000
+```
+
+
+
 
 ## So, which model is best? 
 
