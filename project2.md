@@ -290,5 +290,5 @@ global_step             100.000000
 
 ## So, which model is best? 
 
-
+Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 
