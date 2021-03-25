@@ -58,7 +58,7 @@ While the results are almost identical, based on this image we can see that the 
 
 Again, we see that the model does significantly better with predicting those with very high or very low wealth, and does not fare as well with those in the middle. 
 
-Interestingly, in this model, gender is weighted significantly lower than other predictors. This is interesting, because I expected it to be higher. I also expected education levels to be higher, but it appears that - in this model, at least - age is the most important feature. Below, we can see the relative importance of each feature included in the model: 
+Interestingly, in this model, gender is weighted significantly lower than other predictors. This is interesting, because I expected it to be higher. In this model, at least, age is the most important feature. Below, we can see the relative importance of each feature included in the model: 
 
 ![image](https://user-images.githubusercontent.com/78189165/112403521-efe31180-8ce4-11eb-885f-d395bdd16ff3.png)
 
