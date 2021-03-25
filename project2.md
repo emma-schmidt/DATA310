@@ -9,7 +9,7 @@ For this project, I am interested in predicting wealth based on DHS data from Ke
 
 See below for a summary of the top_models: 
 
-``` 
+```python:
       penalty .metric .estimator  mean     n std_err .config              
       <dbl> <chr>   <chr>      <dbl> <int>   <dbl> <chr>                
  1 0.0001   roc_auc hand_till  0.643     1      NA Preprocessor1_Model01
