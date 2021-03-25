@@ -1,5 +1,60 @@
 # Project 2
 
+
+## Model 1 - Penalized Logistic Regression
+
+#### Which "top_model" performed the best (had the largest AUC)?
+
+See below for a summary of the top_models: 
+
+``` penalty .metric .estimator  mean     n std_err .config              
+      <dbl> <chr>   <chr>      <dbl> <int>   <dbl> <chr>                
+ 1 0.0001   roc_auc hand_till  0.643     1      NA Preprocessor1_Model01
+ 2 0.000127 roc_auc hand_till  0.643     1      NA Preprocessor1_Model02
+ 3 0.000161 roc_auc hand_till  0.643     1      NA Preprocessor1_Model03
+ 4 0.000204 roc_auc hand_till  0.643     1      NA Preprocessor1_Model04
+ 5 0.000259 roc_auc hand_till  0.643     1      NA Preprocessor1_Model05
+ 6 0.000329 roc_auc hand_till  0.642     1      NA Preprocessor1_Model06
+ 7 0.000418 roc_auc hand_till  0.642     1      NA Preprocessor1_Model07
+ 8 0.000530 roc_auc hand_till  0.642     1      NA Preprocessor1_Model08
+ 9 0.000672 roc_auc hand_till  0.642     1      NA Preprocessor1_Model09
+10 0.000853 roc_auc hand_till  0.641     1      NA Preprocessor1_Model10
+11 0.00108  roc_auc hand_till  0.641     1      NA Preprocessor1_Model11
+12 0.00137  roc_auc hand_till  0.641     1      NA Preprocessor1_Model12
+13 0.00174  roc_auc hand_till  0.640     1      NA Preprocessor1_Model13
+14 0.00221  roc_auc hand_till  0.640     1      NA Preprocessor1_Model14
+15 0.00281  roc_auc hand_till  0.639     1      NA Preprocessor1_Model15
+```
+
+And below is a plot of penalty values versus the area under the ROC curve:
+
+![image](https://user-images.githubusercontent.com/78189165/112401665-6da51e00-8ce1-11eb-8fef-91272b232bd4.png)
+
+Based on the above information, I selected model 7 as the model that performed the best because it had very close to the highest ROC, and is the model before a slight drop off in the graph. This model has a penalty of 0.000418. That said, I'm not convinced that it is significantly better than other models - based on the available information there is very little difference bewteen them, especially the first nine. 
+
+Below are the ROC plots, showing how well this model predicted the wealth categories: 
+
+![image](https://user-images.githubusercontent.com/78189165/112402323-ba3d2900-8ce2-11eb-92d8-a2392d45cdc2.png)
+
+The dotted 45 degree line through each of the graphs shows what the curve would look like if our model was no better than random guessing. The higher the curve is above that line, the better this model is at predicting that particular wealth category. As you can see, the most prominent curves can be seen on graph 1 and graph 5. This makes sense - the model is good at predicting those with very high, and very low, incomes. It does not fare as well with those in the middle ranges. This is to be expected, as predicting the distinctions between these is likely much more complicated and nuanced, and would likely require more variables. 
+
+
+## Model 2 - Random Forest
+
+
+
+
+
+## Model 3 - Logistic Regression with Linear Classifier
+
+
+
+
+## Model 4 - Gradient Boosting Model
+
+
+
+
 #### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)? Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
 
