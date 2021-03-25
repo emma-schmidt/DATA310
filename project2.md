@@ -1,6 +1,6 @@
-# Project 2
+# Project 2 - Kenyan DHS Data
 
-For this project, I downloaded DHS data from Kenya. For this project, I am interested in predicting wealth. Below is a summary of observations as they are distributed across the five wealth categories: 
+For this project, I am interested in predicting wealth based on DHS data from Kenya. Below is a summary of observations as they are distributed across the five wealth categories: 
 
 ![image](https://user-images.githubusercontent.com/78189165/112401182-59acec80-8ce0-11eb-8487-07ff153828bf.png)
 
@@ -55,7 +55,9 @@ While the results are almost identical, based on this image we can see that the 
 
 ![image](https://user-images.githubusercontent.com/78189165/112403455-d17d1600-8ce4-11eb-98de-7f983d62689f.png)
 
-Interestingly, in this model, gender is weighted significantly lower than other predictors. Below, we can see the relative importance of each feature: 
+Again, we see that the model does significantly better with predicting those with very high or very low wealth, and does not fare as well with those in the middle. 
+
+Interestingly, in this model, gender is weighted significantly lower than other predictors. This is interesting, because I expected it to be higher. I also expected education levels to be higher, but it appears that - in this model, at least - age is the most important feature. Below, we can see the relative importance of each feature included in the model: 
 
 ![image](https://user-images.githubusercontent.com/78189165/112403521-efe31180-8ce4-11eb-885f-d395bdd16ff3.png)
 
@@ -66,7 +68,14 @@ Interestingly, in this model, gender is weighted significantly lower than other 
 
 
 
+
+
+
 ## Model 4 - Gradient Boosting Model
+
+
+
+
 
 
 
