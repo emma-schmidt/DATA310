@@ -106,52 +106,95 @@ ROC curve:
 
 ## Model 4 - Gradient Boosting Model
 
+For this model, I trained a gradient boosting model using decision trees with the tensorflow estimator. Below are the results for each wealth bin.
+
 
 #### Wealth 1:
 
 
 ```python:
 accuracy                  1.000000
-accuracy_baseline         0.713109
+accuracy_baseline         0.712066
 auc                       1.000000
 auc_precision_recall      1.000000
 average_loss              0.000022
-label/mean                0.286891
+label/mean                0.287934
 loss                      0.000022
 precision                 1.000000
-prediction/mean           0.286901
+prediction/mean           0.287944
 recall                    1.000000
 global_step             100.000000
 ```
 
+![image](https://user-images.githubusercontent.com/78189165/112536423-d3e27d00-8d83-11eb-8485-aee6d7ef6c63.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112536392-cd540580-8d83-11eb-85fc-c1c2f1791766.png)
 
 #### Wealth 2:
 
 
+```
+accuracy                  0.794947
+accuracy_baseline         0.795052
+auc                       0.766762
+auc_precision_recall      0.375286
+average_loss              0.408367
+label/mean                0.204948
+loss                      0.408367
+precision                 0.409091
+prediction/mean           0.204926
+recall                    0.001145
+global_step             100.000000
+```
+
+![image](https://user-images.githubusercontent.com/78189165/112535882-28d1c380-8d83-11eb-8984-eddbf5fb48ed.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112535851-22434c00-8d83-11eb-80da-43bcdf49c626.png)
+
 
 #### Wealth 3:
 
+```
+accuracy                  0.809808
+accuracy_baseline         0.809782
+auc                       0.714789
+auc_precision_recall      0.299503
+average_loss              0.408735
+label/mean                0.190218
+loss                      0.408735
+precision                 1.000000
+prediction/mean           0.187240
+recall                    0.000137
+global_step             100.000000
+```
+
+![image](https://user-images.githubusercontent.com/78189165/112531658-346ebb80-8d7e-11eb-885b-b880d33b34f2.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112536650-1f952680-8d84-11eb-8cca-f64791160a63.png)
 
 
 #### Wealth 4: 
 
+```
+accuracy                  0.821514
+accuracy_baseline         0.821332
+auc                       0.714486
+auc_precision_recall      0.298418
+average_loss              0.397650
+label/mean                0.178668
+loss                      0.397650
+precision                 0.606061
+prediction/mean           0.175882
+recall                    0.002918
+global_step             100.000000
+```
+
+![image](https://user-images.githubusercontent.com/78189165/112494443-6cafd300-8d59-11eb-81c4-73a78ddfaf8d.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112494408-64579800-8d59-11eb-86c4-1c3d606a539a.png)
 
 
 #### Wealth 5:
-
-```
-accuracy                  0.856450
-accuracy_baseline         0.853869
-auc                       0.773969
-auc_precision_recall      0.373188
-average_loss              0.350861
-label/mean                0.146131
-loss                      0.350861
-precision                 0.589189
-prediction/mean           0.152098
-recall                    0.058341
-global_step             100.000000
-```
 
 ```
 accuracy                  0.861873
@@ -167,7 +210,9 @@ recall                    0.172525
 global_step             100.000000
 ```
 
+![image](https://user-images.githubusercontent.com/78189165/112493193-548b8400-8d58-11eb-917b-43898d9279bf.png)
 
+![image](https://user-images.githubusercontent.com/78189165/112492946-18f0ba00-8d58-11eb-9333-8c1fae9627a7.png)
 
 
 ## So, which model is best? 
