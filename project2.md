@@ -290,5 +290,4 @@ global_step             100.000000
 
 ## So, which model is best? 
 
-Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
-
+Based on the above results, Model 4 - the Gradient Boosting Model - produced the best results. All models tended to follow the same trend: moderately good predictions for wealth 1 and wealth 5, with moderately poor predictions for wealth 2, 3, and 4. Gradient Boosting is somewhat of an outlier, having produced perfect predictions for wealth 1. However, I believe there is reason to be skeptical of this. It is highly unlikely that this is a true indication of the efficacy of the model, and likely an error in the code or in the data.
