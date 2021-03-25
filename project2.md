@@ -66,6 +66,8 @@ Interestingly, in this model, gender is weighted significantly lower than other 
 
 ## Model 3 - Logistic Regression with Linear Classifier
 
+This model is trained as a logistic regression model using the tensorflow estimator API and the DHS data from Kenya. 
+
 ### Wealth 1:
 
 ```python:
@@ -75,7 +77,11 @@ loss                0.515025
 global_step     35960.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112539402-5587da00-8d87-11eb-8fc5-feb6d5197820.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112539373-4d2f9f00-8d87-11eb-9efb-b0d8520c03db.png)
 
@@ -89,7 +95,11 @@ loss                0.496950
 global_step     35960.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112539020-de524600-8d86-11eb-9875-bd65a95a03f5.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112539000-d72b3800-8d86-11eb-92d2-97de21fad51c.png)
 
@@ -103,7 +113,11 @@ loss                0.478025
 global_step     35960.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112538618-713eb080-8d86-11eb-982f-41629a77d977.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112538597-6b48cf80-8d86-11eb-84ca-ab84464d45bc.png)
 
@@ -116,7 +130,11 @@ loss                0.455296
 global_step     35960.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112538242-0b522900-8d86-11eb-9a0f-c6a9f1db76c8.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112538205-01c8c100-8d86-11eb-8a44-81553182a7ac.png)
 
@@ -130,14 +148,18 @@ loss                0.365920
 global_step     35960.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112537781-764f3000-8d85-11eb-80f5-ff5e90c00f4c.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112537741-6c2d3180-8d85-11eb-9602-9ec4a26fe2b0.png)
 
 
 ## Model 4 - Gradient Boosting Model
 
-For this model, I trained a gradient boosting model using decision trees with the tensorflow estimator. Below are the results for each wealth bin.
+For this model, I trained a gradient boosting model using decision trees with the tensorflow estimator. Below are the results for each wealth bin. As with the other models, it does a much better job of predicting very high and very low wealth, and a pretty bad job of predicting more middle wealth levels. Wealth 1 is an interesing (and suspicious) category for this one - it appears to have 100% accuracy. I can't find an issue with the code, but I'm also not convinced that is right so we should be cautious of that particular result. 
 
 
 ### Wealth 1:
@@ -157,7 +179,11 @@ recall                    1.000000
 global_step             100.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112536423-d3e27d00-8d83-11eb-8485-aee6d7ef6c63.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112536392-cd540580-8d83-11eb-85fc-c1c2f1791766.png)
 
@@ -178,7 +204,11 @@ recall                    0.001145
 global_step             100.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112535882-28d1c380-8d83-11eb-8984-eddbf5fb48ed.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112535851-22434c00-8d83-11eb-80da-43bcdf49c626.png)
 
@@ -199,7 +229,11 @@ recall                    0.000137
 global_step             100.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112531658-346ebb80-8d7e-11eb-885b-b880d33b34f2.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112536650-1f952680-8d84-11eb-8cca-f64791160a63.png)
 
@@ -220,7 +254,11 @@ recall                    0.002918
 global_step             100.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112494443-6cafd300-8d59-11eb-81c4-73a78ddfaf8d.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112494408-64579800-8d59-11eb-86c4-1c3d606a539a.png)
 
@@ -241,11 +279,16 @@ recall                    0.172525
 global_step             100.000000
 ```
 
+#### ROC Plot:
+
 ![image](https://user-images.githubusercontent.com/78189165/112493193-548b8400-8d58-11eb-917b-43898d9279bf.png)
+
+#### Predicted Probabilities Plot:
 
 ![image](https://user-images.githubusercontent.com/78189165/112492946-18f0ba00-8d58-11eb-9333-8c1fae9627a7.png)
 
 
 ## So, which model is best? 
+
 
 
