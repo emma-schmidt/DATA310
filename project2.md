@@ -153,6 +153,20 @@ recall                    0.058341
 global_step             100.000000
 ```
 
+```
+accuracy                  0.861873
+accuracy_baseline         0.853869
+auc                       0.791587
+auc_precision_recall      0.397457
+average_loss              0.331681
+label/mean                0.146131
+loss                      0.331681
+precision                 0.594345
+prediction/mean           0.144980
+recall                    0.172525
+global_step             100.000000
+```
+
 
 
 
