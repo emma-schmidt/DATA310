@@ -7,8 +7,6 @@ For this project, I downloaded DHS data from Kenya. For this project, I am inter
 
 ## Model 1 - Penalized Logistic Regression
 
-#### Which "top_model" performed the best (had the largest AUC)?
-
 See below for a summary of the top_models: 
 
 ``` penalty .metric .estimator  mean     n std_err .config              
@@ -40,12 +38,26 @@ Below are the ROC plots, showing how well this model predicted the wealth catego
 
 ![image](https://user-images.githubusercontent.com/78189165/112402323-ba3d2900-8ce2-11eb-92d8-a2392d45cdc2.png)
 
-The dotted 45 degree line through each of the graphs shows what the curve would look like if our model was no better than random guessing. The higher the curve is above that line, the better this model is at predicting that particular wealth category. As you can see, the most prominent curves can be seen on graph 1 and graph 5. This makes sense - the model is good at predicting those with very high, and very low, incomes. It does not fare as well with those in the middle ranges. This is to be expected, as predicting the distinctions between these is likely much more complicated and nuanced, and would likely require more variables. 
+The dotted 45 degree line through each of the graphs shows what the curve would look like if our model was no better than random guessing. The higher the curve is above that line, the better this model is at predicting that particular wealth category. As you can see, the most prominent curves can be seen on graph 1 and graph 5. This makes sense - the model is good at predicting those with very high, and very low, incomes. It does not fare as well with those in the middle ranges. This is to be expected, as predicting the distinctions between these is likely much more complicated and nuanced, and would likely require more variables.
 
 
 ## Model 2 - Random Forest
 
+Below, you can see the AUC - ROC values for the randomly selected predictors, and the minimal node size. 
 
+![image](https://user-images.githubusercontent.com/78189165/112403190-561b6480-8ce4-11eb-921c-6fdeeb465712.png)
+
+In general, the results were very comparable to the linear regression. You can see this in this graph, comparing the AUC of the linear regression model to the AUC of the random forest model: 
+
+![image](https://user-images.githubusercontent.com/78189165/112403293-85ca6c80-8ce4-11eb-8d27-e7ff29faa2cb.png)
+
+While the results are almost identical, based on this image we can see that the random forest model performs slightly better. Below, we can see the ROC plots for the random forest, showing how well this model predicted the wealth categories: 
+
+![image](https://user-images.githubusercontent.com/78189165/112403455-d17d1600-8ce4-11eb-98de-7f983d62689f.png)
+
+Interestingly, in this model, gender is weighted significantly lower than other predictors. Below, we can see the relative importance of each feature: 
+
+![image](https://user-images.githubusercontent.com/78189165/112403521-efe31180-8ce4-11eb-885f-d395bdd16ff3.png)
 
 
 
