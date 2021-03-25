@@ -1,5 +1,9 @@
 # Project 2
 
+For this project, I downloaded DHS data from Kenya. For this project, I am interested in predicting wealth. Below is a summary of observations as they are distributed across the five wealth categories: 
+
+![image](https://user-images.githubusercontent.com/78189165/112401182-59acec80-8ce0-11eb-8487-07ff153828bf.png)
+
 
 ## Model 1 - Penalized Logistic Regression
 
