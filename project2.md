@@ -66,7 +66,7 @@ Interestingly, in this model, gender is weighted significantly lower than other 
 
 ## Model 3 - Logistic Regression with Linear Classifier
 
-#### Wealth 1:
+### Wealth 1:
 
 ```python:
 {'accuracy': 0.7522943, 'average_loss': 0.5178214, 'loss': 0.51782596, 'global_step': 35960}
@@ -76,27 +76,27 @@ ROC curve:
 
 ![image](https://user-images.githubusercontent.com/78189165/112410097-0abb8300-8cf1-11eb-976b-dc15cd1ee17a.png)
 
-#### Wealth 2:  
+### Wealth 2:  
 
 ```python:
 {'accuracy': 0.7949473, 'average_loss': 0.4964159, 'loss': 0.4964591, 'global_step': 35960}
 ```
 
 
-#### Wealth 3: 
+### Wealth 3: 
 
 ```python:
 {'accuracy': 0.81241524, 'average_loss': 0.4743538, 'loss': 0.4743492, 'global_step': 35960}
 ```
 
 
-#### Wealth 4: 
+### Wealth 4: 
 
 ```python:
 {'accuracy': 0.8247471, 'average_loss': 0.45209032, 'loss': 0.45204842, 'global_step': 35960}
 ```
 
-#### Wealth 5: 
+### Wealth 5: 
 
 ```python:
 {'accuracy': 0.8644541, 'average_loss': 0.36294478, 'loss': 0.36292008, 'global_step': 35960}
@@ -109,7 +109,7 @@ ROC curve:
 For this model, I trained a gradient boosting model using decision trees with the tensorflow estimator. Below are the results for each wealth bin.
 
 
-#### Wealth 1:
+### Wealth 1:
 
 
 ```python:
@@ -130,7 +130,7 @@ global_step             100.000000
 
 ![image](https://user-images.githubusercontent.com/78189165/112536392-cd540580-8d83-11eb-85fc-c1c2f1791766.png)
 
-#### Wealth 2:
+### Wealth 2:
 
 
 ```
@@ -152,7 +152,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78189165/112535851-22434c00-8d83-11eb-80da-43bcdf49c626.png)
 
 
-#### Wealth 3:
+### Wealth 3:
 
 ```
 accuracy                  0.809808
@@ -173,7 +173,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78189165/112536650-1f952680-8d84-11eb-8cca-f64791160a63.png)
 
 
-#### Wealth 4: 
+### Wealth 4: 
 
 ```
 accuracy                  0.821514
@@ -194,7 +194,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78189165/112494408-64579800-8d59-11eb-86c4-1c3d606a539a.png)
 
 
-#### Wealth 5:
+### Wealth 5:
 
 ```
 accuracy                  0.861873
