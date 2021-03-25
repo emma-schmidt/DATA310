@@ -69,39 +69,70 @@ Interestingly, in this model, gender is weighted significantly lower than other 
 ### Wealth 1:
 
 ```python:
-{'accuracy': 0.7522943, 'average_loss': 0.5178214, 'loss': 0.51782596, 'global_step': 35960}
+accuracy            0.753285
+average_loss        0.515050
+loss                0.515025
+global_step     35960.000000
 ```
 
-ROC curve:
+![image](https://user-images.githubusercontent.com/78189165/112539402-5587da00-8d87-11eb-8fc5-feb6d5197820.png)
 
-![image](https://user-images.githubusercontent.com/78189165/112410097-0abb8300-8cf1-11eb-976b-dc15cd1ee17a.png)
+![image](https://user-images.githubusercontent.com/78189165/112539373-4d2f9f00-8d87-11eb-9efb-b0d8520c03db.png)
+
 
 ### Wealth 2:  
 
 ```python:
-{'accuracy': 0.7949473, 'average_loss': 0.4964159, 'loss': 0.4964591, 'global_step': 35960}
+accuracy            0.793826
+average_loss        0.496922
+loss                0.496950
+global_step     35960.000000
 ```
+
+![image](https://user-images.githubusercontent.com/78189165/112539020-de524600-8d86-11eb-9875-bd65a95a03f5.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112539000-d72b3800-8d86-11eb-92d2-97de21fad51c.png)
 
 
 ### Wealth 3: 
 
 ```python:
-{'accuracy': 0.81241524, 'average_loss': 0.4743538, 'loss': 0.4743492, 'global_step': 35960}
+accuracy            0.810512
+average_loss        0.478042
+loss                0.478025
+global_step     35960.000000
 ```
 
+![image](https://user-images.githubusercontent.com/78189165/112538618-713eb080-8d86-11eb-982f-41629a77d977.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112538597-6b48cf80-8d86-11eb-84ca-ab84464d45bc.png)
 
 ### Wealth 4: 
 
 ```python:
-{'accuracy': 0.8247471, 'average_loss': 0.45209032, 'loss': 0.45204842, 'global_step': 35960}
+accuracy            0.821097
+average_loss        0.455290
+loss                0.455296
+global_step     35960.000000
 ```
+
+![image](https://user-images.githubusercontent.com/78189165/112538242-0b522900-8d86-11eb-9a0f-c6a9f1db76c8.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112538205-01c8c100-8d86-11eb-8a44-81553182a7ac.png)
+
 
 ### Wealth 5: 
 
-```python:
-{'accuracy': 0.8644541, 'average_loss': 0.36294478, 'loss': 0.36292008, 'global_step': 35960}
+```
+accuracy            0.863307
+average_loss        0.365876
+loss                0.365920
+global_step     35960.000000
 ```
 
+![image](https://user-images.githubusercontent.com/78189165/112537781-764f3000-8d85-11eb-80f5-ff5e90c00f4c.png)
+
+![image](https://user-images.githubusercontent.com/78189165/112537741-6c2d3180-8d85-11eb-9602-9ec4a26fe2b0.png)
 
 
 ## Model 4 - Gradient Boosting Model
