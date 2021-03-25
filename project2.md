@@ -122,7 +122,7 @@ precision                 1.000000
 prediction/mean           0.286901
 recall                    1.000000
 global_step             100.000000
-
+```
 
 
 #### Wealth 2:
