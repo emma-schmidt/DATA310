@@ -28,5 +28,7 @@ Welcome to Emma's Applied Machine Learning github page!
 
 [Project 2](https://emma-schmidt.github.io/DATA310/project2.html)
 
+[Project 3](https://emma-schmidt.github.io/DATA310/project3.html)
+
 ## Slice of Data Science Write-Ups
 [Clare Heinbaugh](https://emma-schmidt.github.io/DATA310/sliceofdatascience_claire.html)
