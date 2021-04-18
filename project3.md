@@ -13,8 +13,14 @@
 
 Country: Kenya
 
-Kenya as a whole had too much data for my computer to process, so I chose a much smaller area to look at - Kisumu. Below is an image that shows where Kisumu is in Kenya: 
+![image](https://user-images.githubusercontent.com/78189165/115153654-280c1480-a045-11eb-96f6-46cb6f643065.png)
+
+
+
+Kenya as a whole had too much data for my computer to process, so I chose a much smaller area to look at - Kisumu. Below is an image that shows where Kisumu is located (shown in red), followed by a close up of the region: 
 
 ![image](https://user-images.githubusercontent.com/78189165/115153601-e54a3c80-a044-11eb-9531-43285afadfa8.png)
 
+
+![image](https://user-images.githubusercontent.com/78189165/115153683-43771f80-a045-11eb-9c60-8ec00c3fb67e.png)
 
