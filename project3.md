@@ -75,6 +75,10 @@ Plot that shows the difference between actual and predicted population sums:
 
 ![image](https://user-images.githubusercontent.com/78189165/115169132-2feea780-a08b-11eb-8545-931f5a4640a4.png)
 
+3D plot of ME: 
 
+![image](https://user-images.githubusercontent.com/78189165/115169197-59a7ce80-a08b-11eb-863b-439daf6c82de.png)
+
+Again, the model is relatively good but could probably be improved by increasing the number of variables that can be used to determine population density in more urban areas. That said, it is **not quite as good as the linear model, with higher ME in urban areas. Therefore, the linear regression model is the best out of the two.**
 
 
