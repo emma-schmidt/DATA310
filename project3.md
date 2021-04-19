@@ -49,6 +49,31 @@ As you can see, the linear regression model underpredicts the population in one 
 
 ![image](https://user-images.githubusercontent.com/78189165/115168740-e94c7d80-a089-11eb-8773-c66487046853.png)
 
+All in all, this plot shows that the model is relatively good. It could probably be improved by increasing the number of variables that can be used to determine population density in more urban areas. 
+
+# Random Forest
+
+Plot of the model: 
+
+![image](https://user-images.githubusercontent.com/78189165/115168900-860f1b00-a08a-11eb-95ee-f5907f5cc6cc.png)
+
+
+Plot of the variable importance: 
+
+![image](https://user-images.githubusercontent.com/78189165/115168923-98895480-a08a-11eb-8466-5dac87c1d8ba.png)
+
+
+Plot of predicted population sums: 
+
+![image](https://user-images.githubusercontent.com/78189165/115169059-fae25500-a08a-11eb-91a4-5702a82348d5.png)
+
+Plot that shows the difference between actual and predicted population sums: 
+
+![image](https://user-images.githubusercontent.com/78189165/115169071-06358080-a08b-11eb-94f5-ba8f7fcd3da7.png)
+
+3D plot that shows the difference between actual and predicted population sums: 
+
+![image](https://user-images.githubusercontent.com/78189165/115169132-2feea780-a08b-11eb-8545-931f5a4640a4.png)
 
 
 
