@@ -32,3 +32,24 @@ In addition to the shapefile of Kisumu, we have 12 raster files with information
 
 (insert graph of this -- found in projthree_takeone line 162)
 
+
+# Linear Regression
+
+Plot of predicted population sums: 
+
+![image](https://user-images.githubusercontent.com/78189165/115168267-4b0be800-a088-11eb-82cb-4333d4196034.png)
+
+Plot that shows the difference between actual and predicted population sums: 
+
+![image](https://user-images.githubusercontent.com/78189165/115168315-7393e200-a088-11eb-8c98-2b19f3c3ff6f.png)
+
+As you can see, the linear regression model underpredicts the population in one area of Kisumu. This area is a highly populated area. The model likely underpredicts population in this area because it does not take into account building height, so does not realize that some buildings are tall and can house many people. 
+
+3D plot of ME: 
+
+![image](https://user-images.githubusercontent.com/78189165/115168740-e94c7d80-a089-11eb-8773-c66487046853.png)
+
+
+
+
+
