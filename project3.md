@@ -5,9 +5,11 @@
 
 #### Country: Kenya
 
+Map of Kenya at the adm2 level:
+
 ![image](https://user-images.githubusercontent.com/78189165/115153654-280c1480-a045-11eb-96f6-46cb6f643065.png)
 
-Kenya as a whole had too much data for my computer to process, so I chose a much smaller area to look at - Kisumu. Kisumu is the third largest city in Kenya, and is located in southwest Kenya along Lake Victoria. Below is an image that shows where Kisumu is located (shown in red), followed by a close up of the region: 
+Kenya as a whole had too much data for my computer to process, so I chose a much smaller area to look at - Kisumu. Kisumu is the third largest city in Kenya, and is located in southwest Kenya along Lake Victoria. Below is an image that shows where Kisumu is located (shown in red), followed by a close up of the region at the adm3 level: 
 
 ![image](https://user-images.githubusercontent.com/78189165/115153601-e54a3c80-a044-11eb-9531-43285afadfa8.png)
 
