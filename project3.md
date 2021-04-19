@@ -1,7 +1,7 @@
 # Project 3
 
 
-# Data
+## Data
 
 #### Country: Kenya
 
@@ -18,7 +18,7 @@ Kenya as a whole had too much data for my computer to process, so I chose a much
 In addition to the shapefile of Kisumu, we have 12 raster files with information on important features of the region, as well as a population raster dataset. 
 
 
-# Linear Regression
+## Linear Regression
 
 Plot of predicted population sums: 
 
@@ -36,7 +36,7 @@ As you can see, the linear regression model underpredicts the population in one 
 
 All in all, this plot shows that the model is relatively good. It could probably be improved by increasing the number of variables that can be used to determine population density in more urban areas. 
 
-# Random Forest
+## Random Forest
 
 Plot of the model: 
 
