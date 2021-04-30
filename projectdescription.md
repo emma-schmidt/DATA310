@@ -2,7 +2,7 @@
 
 ### Rugby World Cup 2019 Game Outcomes
 
-For my final project, I am interested in training a machine learning algorithm to predict whether a team won or lost their game in the 2019 Rugby World Cup by inputting various other stats from the game. Below is the first ten rows of my data so you can see the variables I am working with: 
+For my final project, I am interested in training a machine learning model to predict whether a team won or lost their game in the 2019 Rugby World Cup by inputting various other stats from the game. Below is the first ten rows of my data (which contains 90 observations in total) so you can see the variables I am working with: 
 
 | Game | Pool | Team         | Win or Loss | Point Differential | Meters Run | Runs | Clean Breaks | Offloads | Turnovers Conceded | Possession Pct | Territory Pct | Scrums Won | Scrums Won Pct | Lineouts Won | Lineouts Won Pct | Red Cards | Yellow Cards | Penalties Conceded |
 | ---- | ---- | ------------ | ----------- | ------------------ | ---------- | ---- | ------------ | -------- | ------------------ | -------------- | ------------- | ---------- | -------------- | ------------ | ---------------- | --------- | ------------ | ------------------ |
@@ -16,3 +16,6 @@ For my final project, I am interested in training a machine learning algorithm t
 | 4    | B    | South Africa | 0           | \-10               | 370        | 104  | 7            | 2        | 18                 | 53             | 59            | 5          | 83             | 9            | 100              | 0         | 0            | 9                  |
 | 5    | B    | Italy        | 1           | 25                 | 537        | 122  | 22           | 11       | 17                 | 57             | 63            | 9          | 100            | 14           | 82               | 0         | 0            | 5                  |
 | 5    | B    | Namibia      | 0           | \-25               | 317        | 80   | 7            | 6        | 15                 | 43             | 37            | 11         | 100            | 17           | 75               | 0         | 0            | 9                  |
+
+
+I will play with including different variables in the model to get the highest accuracy. In doing so, I will be able to see which of these variables have the greatest impact on game success. For example, we might expect that the team that has a higher possession percentage might be much more likely to win the game. But perhaps this is wrong - if so, this could indicate that teams who win don't _need_ a lot of possession to score because they can make line breaks. It's also possible that I won't be able to come up with a good model, which whould also be an interesting result. 
