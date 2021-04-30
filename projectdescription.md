@@ -1,0 +1,18 @@
+# Emma Schmidt Final Project Description
+
+### Rugby World Cup 2019 Game Outcomes
+
+For my final project, I am interested in training a machine learning algorithm to predict whether a team won or lost their game in the 2019 Rugby World Cup by inputting various other stats from the game. Below is the first ten rows of my data so you can see the variables I am working with: 
+
+| Game | Pool | Team         | Win or Loss | Point Differential | Meters Run | Runs | Clean Breaks | Offloads | Turnovers Conceded | Possession Pct | Territory Pct | Scrums Won | Scrums Won Pct | Lineouts Won | Lineouts Won Pct | Red Cards | Yellow Cards | Penalties Conceded |
+| ---- | ---- | ------------ | ----------- | ------------------ | ---------- | ---- | ------------ | -------- | ------------------ | -------------- | ------------- | ---------- | -------------- | ------------ | ---------------- | --------- | ------------ | ------------------ |
+| 1    | A    | Japan        | 1           | 20                 | 653        | 141  | 16           | 9        | 21                 | 50             | 48            | 4          | 100            | 13           | 92               | 0         | 0            | 5                  |
+| 1    | A    | Russia       | 0           | \-20               | 289        | 112  | 11           | 4        | 17                 | 50             | 52            | 13         | 100            | 8            | 88               | 0         | 0            | 5                  |
+| 2    | D    | Australia    | 1           | 18                 | 490        | 151  | 8            | 7        | 14                 | 67             | 72            | 3          | 100            | 19           | 90               | 0         | 0            | 9                  |
+| 2    | D    | Fiji         | 0           | \-18               | 341        | 66   | 7            | 3        | 12                 | 33             | 28            | 4          | 100            | 11           | 100              | 0         | 1            | 12                 |
+| 3    | C    | France       | 1           | 2                  | 435        | 120  | 15           | 13       | 16                 | 42             | 38            | 2          | 66             | 4            | 66               | 0         | 0            | 15                 |
+| 3    | C    | Argentina    | 0           | \-2                | 308        | 113  | 7            | 8        | 14                 | 58             | 62            | 6          | 85             | 13           | 100              | 0         | 0            | 5                  |
+| 4    | B    | New Zealand  | 1           | 10                 | 367        | 110  | 12           | 8        | 13                 | 47             | 41            | 8          | 100            | 7            | 77               | 0         | 0            | 4                  |
+| 4    | B    | South Africa | 0           | \-10               | 370        | 104  | 7            | 2        | 18                 | 53             | 59            | 5          | 83             | 9            | 100              | 0         | 0            | 9                  |
+| 5    | B    | Italy        | 1           | 25                 | 537        | 122  | 22           | 11       | 17                 | 57             | 63            | 9          | 100            | 14           | 82               | 0         | 0            | 5                  |
+| 5    | B    | Namibia      | 0           | \-25               | 317        | 80   | 7            | 6        | 15                 | 43             | 37            | 11         | 100            | 17           | 75               | 0         | 0            | 9                  |
