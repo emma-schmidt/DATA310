@@ -20,4 +20,4 @@ For my final project, I am interested in training a machine learning model to pr
 
 I will play with including different variables in the model to get the highest accuracy. In doing so, I will be able to see which of these variables have the greatest impact on game success. For example, we might expect that the team that has a higher possession percentage might be much more likely to win the game. But perhaps this is wrong - if so, this could indicate that teams who win don't _need_ a lot of possession to score because they can make line breaks. It's also possible that I won't be able to come up with a good model, which whould also be an interesting result and would indicate that important predictors of game success might not be the traditional markers we look to, such as meters run or penalties conceded. 
 
-Data sources: https://www.japantimes.co.jp/rugby-world-cup-2019-schedule/ | https://www.espn.com/rugby/matchstats?gameId=292888&league=164205
+Data sources: https://www.japantimes.co.jp/rugby-world-cup-2019-schedule/  https://www.espn.com/rugby/matchstats?gameId=292888&league=164205
