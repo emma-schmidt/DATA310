@@ -2,7 +2,7 @@
 
 ### Rugby World Cup 2019 Game Outcomes
 
-For my final project, I am interested in training a machine learning model to predict whether a team won or lost their game in the 2019 Rugby World Cup by inputting various other stats from the game. Below is the first ten rows of my data (which contains 90 observations in total) so you can see the variables I am working with: 
+For my final project, I am interested in training a machine learning model to predict whether a team won or lost their game in the 2019 Rugby World Cup by inputting various other stats from the game. Sports are starting to use machine learning analysis in their game analysis, but I was not able to find any of this online for rugby. So, I am interested in seeing if I can come up with a preliminary model that predicts game wins based on other game statistics. Below is the first ten rows of my data (which contains 90 observations in total) so you can see the variables I am working with: 
 
 | Game | Pool | Team         | Win or Loss | Point Differential | Meters Run | Runs | Clean Breaks | Offloads | Turnovers Conceded | Possession Pct | Territory Pct | Scrums Won | Scrums Won Pct | Lineouts Won | Lineouts Won Pct | Red Cards | Yellow Cards | Penalties Conceded |
 | ---- | ---- | ------------ | ----------- | ------------------ | ---------- | ---- | ------------ | -------- | ------------------ | -------------- | ------------- | ---------- | -------------- | ------------ | ---------------- | --------- | ------------ | ------------------ |
@@ -18,7 +18,9 @@ For my final project, I am interested in training a machine learning model to pr
 | 5    | B    | Namibia      | 0           | \-25               | 317        | 80   | 7            | 6        | 15                 | 43             | 37            | 11         | 100            | 17           | 75               | 0         | 0            | 9                  |
 
 
-I will play with including different variables in the model to get the highest accuracy. In doing so, I will be able to see which of these variables have the greatest impact on game success. For example, we might not expect that the number of lineouts won would be important and that percent of lineouts won is a much better measure of game success. But, perhaps this is wrong -- by playing around with what variables I include in the model, I will hopefully be able to make some interesting discoveries. It's also possible that I won't be able to come up with a good model, which whould also be an interesting result and would indicate that important predictors of game success might not be the traditional markers we look to, such as meters run or penalties conceded. 
+I will play with including different variables in the model to get the highest accuracy. In doing so, I will be able to see which of these variables have the greatest impact on game success. For example, we might not expect that the number of lineouts won would be important and that percent of lineouts won is a much better measure of game success. But, perhaps this is wrong -- by playing around with what variables I include in the model, I will hopefully be able to make some interesting discoveries. It's also possible that I won't be able to come up with a good model, which whould also be an interesting result and would indicate that important predictors of game success might not be the traditional markers we look to, such as meters run or penalties conceded. To make my model, I will need to start with doing some dimensionality reduction (possibly using TSNE). After that, I will run different models and see which one makes the best predictions. 
+
+I don't have a working model yet -- once I have a script as a jumping off point, I will get started. 
 
 Data sources: 
 
