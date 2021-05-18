@@ -34,5 +34,7 @@ Welcome to Emma's Applied Machine Learning github page!
 
 [Project Description](https://emma-schmidt.github.io/DATA310/projectdescription.html)
 
+[Research Abstract](https://emma-schmidt.github.io/DATA310/research_abstract.html)
+
 ## Slice of Data Science Write-Ups
 [Clare Heinbaugh](https://emma-schmidt.github.io/DATA310/sliceofdatascience_claire.html)
